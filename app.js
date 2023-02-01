@@ -1,11 +1,16 @@
 const express = require("express");
+const cors = require("cors");
 const app = express();
 const port = process.env.PORT || 3001;
 
-app.get("/", (req, res) => res.type('html').send(html));
+app.use(cors());
+
+app.get("/api/getUsername", (req, res) =>
+  res.send({ username: "This data is coming from the backend" })
+);
+app.get("/", (req, res) => res.type("html").send(html));
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
-
 
 const html = `
 <!DOCTYPE html>
@@ -56,4 +61,4 @@ const html = `
     </section>
   </body>
 </html>
-`
+`;
