@@ -26,14 +26,14 @@
 ## Install
 
 ```sh
-npm i
+yarn install
 ```
 
 
 ## Usage
 
 ```sh
-yarn run start
+node run start
 ```
 
 
