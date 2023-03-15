@@ -1,6 +1,48 @@
-# README
+<h1 align="center">Welcome to render-server 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/node-%3E%3D14-blue.svg" />
+  <a href="https://github.com/joshl26/render-server#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/joshl26/render-server/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://github.com/joshl26/render-server/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/joshl26/render-server" />
+  </a>
+</p>
 
-This is the [Express](https://expressjs.com) [Hello world](https://expressjs.com/en/starter/hello-world.html) example on [Render](https://render.com).
+> Server side test on Render.com
+> > 
+### 🏠 [Homepage](https://github.com/joshl26/render-server#readme)
+
+
+## Prerequisites
+
+
+- node >=14
+      
+## Install
+
+```sh
+yarn install
+```
+
+
+## Usage
+
+```sh
+node run start
+```
+
+
+
+## Author
+👤 **Joshua Lehman**
+
+## Portfolio
+- https://joshlehman.ca 
 
 ## Github  
 - [@joshl26](https://github.com/joshl26)  
