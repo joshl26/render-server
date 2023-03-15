@@ -26,7 +26,7 @@
 ## Install
 
 ```sh
-npm run start
+npm i
 ```
 
 
